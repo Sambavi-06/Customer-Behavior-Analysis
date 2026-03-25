@@ -68,6 +68,25 @@ The project demonstrates the full data science workflow: from data cleaning and 
 
 ---
 
+## Project Visualizations
+
+### Sales by Country
+![Sales by Country](images/sales_by_country.png)
+
+### Top Products
+![Top Products](images/top_products.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+### Customer Segmentation (K-Means)
+![Customer Segmentation (K-Means)](images/customer_segmentation_kmeans.png)
+
+### 3D Customer Clusters
+![3D Customer Clusters](images/customer_3d_clusters.png)
+
+---
+
 ## Technologies Used
 
 | Technology | Purpose |
@@ -184,7 +203,7 @@ Customer-Behavior-Analysis/
 │   ├── sales_by_country.png           # Top 10 countries by revenue
 │   ├── top_products.png               # Top 10 products
 │   ├── correlation_heatmap.png        # Feature correlations
-│   ├── kmeans_clusters.png            # 2D cluster visualization
+│   ├── customer_segmentation_kmeans.png # 2D cluster visualization
 │   └── customer_3d_clusters.png       # 3D cluster visualization
 │
 ├── README.md                          # This file
@@ -266,7 +285,7 @@ After running the notebook, you'll generate:
 | Sales by Country Chart | `images/sales_by_country.png` | Revenue distribution visualization |
 | Top Products Chart | `images/top_products.png` | Best-selling products ranking |
 | Correlation Heatmap | `images/correlation_heatmap.png` | Feature relationships |
-| K-Means Clusters | `images/kmeans_clusters.png` | 2D customer segmentation |
+| K-Means Clusters | `images/customer_segmentation_kmeans.png` | 2D customer segmentation |
 | 3D Clusters | `images/customer_3d_clusters.png` | 3D RFM visualization |
 | Statistical Reports | Notebook output cells | Detailed numerical analysis |
 
@@ -360,7 +379,7 @@ pip install -r requirements.txt
 ### Issue: CSV file not found
 **Solution**: Ensure you're running the notebook from the `notebook/` folder
 ```bash
-cd Student-Behavior-Analysis/notebook
+cd Customer-Behavior-Analysis/notebook
 jupyter notebook
 ```
 
@@ -441,6 +460,6 @@ If you encounter any issues or have questions:
 
 ---
 
-**Last Updated**: March 16, 2024  
+**Last Updated**: March 16, 2026
 **Status**: Complete and Ready for Use ✅
 
